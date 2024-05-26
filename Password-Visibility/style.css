@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Single Day', cursive;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.form-control{
+    position: relative;
+    margin: 20px 0;
+    width: 300px;
+}
+.form-control input{
+    border: 0;
+    border-bottom: 1px solid orange;
+    outline: none;
+    display: block;
+    padding: 12px 0 ;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Single Day', cursive;
+}
+.form-control label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: darkgray;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: palevioletred;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Single Day', cursive;
+}
+.fa-solid{
+    position: absolute;
+    top: 1.8rem;
+    right: 1.2rem;
+    cursor: pointer;
+}
